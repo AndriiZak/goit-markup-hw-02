@@ -19,7 +19,7 @@ header {
 
 .navigation {
     background #333;
-    color: #fff;
+    color: #ffffff;
 }
 
 .logo-header.link-header {
@@ -28,6 +28,8 @@ header {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19;
+    font-weight: 700;
+    letter-spacing: 0.03em;
 
 }
 
@@ -36,49 +38,29 @@ header {
     text-decoration: none;
     font-size: 14px;
     line-height: 1.14;
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 .header-studio:hover,
 .header-studio:focus {
-    cursor: pointer;
     color: var(--color-brand);
     font-size: 14px;
     line-height: 1.14;
+    font-family: inherit;
+    font-weight: 500;
+    letter-spacing: 0.02em;
 
 }
 
-.header-portfolio:hover,
-.header-portfolio:focus {
-    cursor: pointer;
+.header-link:hover,
+.header-link:focus {
     color: var(--color-brand);
     font-size: 14px;
     line-height: 1.14;
-
-}
-
-
-.header-contact:hover,
-.header-contact:focus {
-    cursor: pointer;
-    color: var(--color-brand);
-    font-size: 14px;
-    line-height: 1.14;
-}
-
-.email:hover,
-.email:focus {
-    cursor: pointer;
-    color: var(--color-brand);
-    font-size: 14px;
-    line-height: 1.14;
-}
-
-.contact-phone:hover,
-.contact-phone:focus {
-    cursor: pointer;
-    color: var(--color-brand);
-    font-size: 14px;
-    line-height: 1.14;
+    font-family: inherit;
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 .link-header {
@@ -86,6 +68,9 @@ header {
     text-decoration: none;
     font-size: 14px;
     line-height: 1.14;
+    font-family: inherit;
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 /* Main */
@@ -111,6 +96,8 @@ footer {
     font-size: 44px;
     line-height: 1.36;
     text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 900;
 }
 
 .button:hover,
@@ -120,6 +107,7 @@ footer {
     cursor: pointer;
     font-size: 16px;
     line-height: 1.87;
+    font-family: inherit;
 }
 
 .link-hero-button {
@@ -128,51 +116,55 @@ footer {
     cursor: pointer;
     font-size: 16px;
     line-height: 1.87;
-}
+    font-family: inherit;
 
-.our-advantages>h2 {
+}
+.our-advantages-title {
     font-size: 36px;
     line-height: 1.16
 }
-
-.our-advantages>h3 {
+.our-advantages-subtitle {
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.03em;
 }
-
-.our-advantages>p {
+.our-advantages-text{ 
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
+    
 }
 
-.what-do>h2 {
+.what-do-title{
     font-size: 36px;
     line-height: 1.16;
+    letter-spacing: 0.06em;
+    
 }
-
 
 .our-team {
     background-color: #F5F4FA;
 
 }
 
-.our-team>h2 {
+.our-team-title {
     font-size: 36px;
     line-height: 1.16;
+    letter-spacing: 0.03em;
 }
-
+.our-workers-text {
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+.our-workers-subtitle{
+    font-size: 16px;
+    line-height: 1.18;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+}
 .our-workers-first {
     background-color: var(--color-section);
-}
-
-.our-workers-first>h3 {
-    font-size: 16px;
-    line-height: 1.18;
-}
-
-.our-workers-first>p {
-    font-size: 16px;
-    line-height: 1.18;
 }
 
 .our-workers-second {
@@ -180,43 +172,14 @@ footer {
 
 }
 
-.our-workers-second>h3 {
-    font-size: 16px;
-    line-height: 1.18;
-}
-
-.our-workers-second>p {
-    font-size: 16px;
-    line-height: 1.18;
-}
-
 .our-workers-third {
     background-color: var(--color-section);
-}
-
-.our-workers-third>h3 {
-    font-size: 16px;
-    line-height: 1.18;
-}
-
-.our-workers-third>p {
-    font-size: 16px;
-    line-height: 1.18;
 }
 
 .our-workers-fourth {
     background-color: var(--color-section);
 }
 
-.our-workers-fourth>h3 {
-    font-size: 16px;
-    line-height: 1.18;
-}
-
-.our-workers-fourth>p {
-    font-size: 16px;
-    line-height: 1.18;
-}
 
 /* footer */
 .footer-logo {
@@ -225,28 +188,28 @@ footer {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19;
+    font-weight: 700;
+    letter-spacing: 0.03em;
 }
 
 .link-map {
     cursor: pointer;
     color: var(--color-section);
     text-decoration: none;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.03em;
 }
 
-.footer-mail:hover,
-.footer-mail:focus {
-    cursor: pointer;
+.footer:hover,
+.footer:focus {
     color: var(--color-brand);
     font-size: 14px;
     line-height: 1.71;
-}
-
-.footer-contact-phone:hover,
-.footer-contact-phone:focus {
-    cursor: pointer;
-    color: var(--color-brand);
-    font-size: 14px;
-    line-height: 1.71;
+    font-family: inherit;
+    font-weight: 400;
+    letter-spacing: 0.03em;
 }
 
 .link-footer {
@@ -254,10 +217,13 @@ footer {
     text-decoration: none;
     font-size: 14px;
     line-height: 1.71;
+    font-family: inherit;
+    font-weight: 400;
+    letter-spacing: 0.03em;
 }
 
 .studio-white {
-    color: #ffffff;
+    color: var(--color-section);
 }
 
 /* PORTFOLIO */
@@ -277,55 +243,24 @@ footer {
 
 .link-oll {
     background-color: var(--color-brand);
-    color: #ffffff;
+    color: var(--color-section);
     font-size: 16px;
     line-height: 1.62;
+    font-family: inherit;
+    font-weight: 500;
+    letter-spacing: 0.03em;
 }
 
 .butoon-oll:hover,
 .butoon-oll:focus {
     background-color: var(--color-brand);
-    color: #ffffff;
+    color: var(--color-section);
     cursor: pointer;
     font-size: 16px;
     line-height: 1.62;
-
-}
-
-.button-website:hover,
-.button-website:focus {
-    background-color: var(--color-brand);
-    color: #ffffff;
-    cursor: pointer;
-    font-size: 16px;
-    line-height: 1.62;
-}
-
-.button-program:hover,
-.button-program:focus {
-    background-color: var(--color-brand);
-    color: #ffffff;
-    cursor: pointer;
-    font-size: 16px;
-    line-height: 1.62;
-}
-
-.button-design:hover,
-.button-design:focus {
-    background-color: var(--color-brand);
-    color: #ffffff;
-    cursor: pointer;
-    font-size: 16px;
-    line-height: 1.62;
-}
-
-.button-design:hover,
-.button-design:focus {
-    background-color: var(--color-brand);
-    color: #ffffff;
-    cursor: pointer;
-    font-size: 16px;
-    line-height: 1.62;
+    font-family: inherit;
+    font-weight: 500;
+    letter-spacing: 0.03em;
 }
 
 .link-button {
@@ -334,14 +269,36 @@ footer {
     cursor: pointer;
     background-color: #F5F4FA;
     color: #000000;
+    font-family: inherit;
+    font-weight: 500;
+    letter-spacing: 0.03em;
 }
 
-.oll-product>h3 {
+.oll-product-subtitle {
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 
-.oll-product>p {
+.oll-product-text {
     font-size: 16px;
     line-height: 1.87;
+    letter-spacing: 0.03em;
+}
+
+.oll-product-link:hover,
+.oll-product-link:focus{
+    font-family: inherit;
+    color: var(--color-background);
+    text-decoration: none;
+    font-style: normal;
+    cursor: default;
+
+}
+.link-produkt{
+    color: var(--color-background);
+    font-size: 16px;
+    line-height: 1.87;
+    font-family: inherit;
+   text-decoration: none;
 }
