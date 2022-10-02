@@ -22,18 +22,18 @@ header {
     color: #ffffff;
 }
 
-.logo-header.link-header {
-    cursor: pointer;
+.logo-header {
+    color: var(--color-section);
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    font-size: 26px;
-    line-height: 1.19;
     font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 
 }
 
-.link-studio {
+.carent-link {
     color: var(--color-brand);
     text-decoration: none;
     font-size: 14px;
@@ -53,8 +53,8 @@ header {
 
 }
 
-.header-link:hover,
-.header-link:focus {
+.link-header:hover,
+.link-header:focus {
     color: var(--color-brand);
     font-size: 14px;
     line-height: 1.14;
@@ -100,16 +100,6 @@ footer {
     font-weight: 900;
 }
 
-.button:hover,
-.button:focus {
-    color: var(--color-section);
-    background-color: #188ce8;
-    cursor: pointer;
-    font-size: 16px;
-    line-height: 1.87;
-    font-family: inherit;
-}
-
 .link-hero-button {
     color: var(--color-section);
     background-color: var(--color-brand);
@@ -118,6 +108,15 @@ footer {
     line-height: 1.87;
     font-family: inherit;
 
+}
+.link-hero-button:hover, 
+.link-hero-button:focus{
+    color: var(--color-section);
+    background-color: #188ce8;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.87;
+    font-family: inherit;
 }
 .our-advantages-title {
     font-size: 36px;
@@ -191,13 +190,14 @@ footer {
     font-weight: 700;
     letter-spacing: 0.03em;
 }
-
+.address {
+    font-style: normal;
+}
 .link-map {
     cursor: pointer;
     color: var(--color-section);
     text-decoration: none;
     font-family: inherit;
-    font-style: normal;
     font-weight: 400;
     letter-spacing: 0.03em;
 }
@@ -250,25 +250,32 @@ footer {
     font-weight: 500;
     letter-spacing: 0.03em;
 }
-
-.butoon-oll:hover,
-.butoon-oll:focus {
+.link-oll:hover,.link-oll:focus{
     background-color: var(--color-brand);
     color: var(--color-section);
-    cursor: pointer;
     font-size: 16px;
-    line-height: 1.62;
-    font-family: inherit;
+        line-height: 1.62;
     font-weight: 500;
     letter-spacing: 0.03em;
+    font-family: inherit;
+    cursor: pointer;
 }
 
 .link-button {
     font-size: 16px;
     line-height: 1.62;
-    cursor: pointer;
     background-color: #F5F4FA;
     color: #000000;
+    font-family: inherit;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+}
+.link-button:hover, .link-button:focus {
+    background-color: var(--color-brand);
+    color: var(--color-section);
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.62;
     font-family: inherit;
     font-weight: 500;
     letter-spacing: 0.03em;
@@ -295,8 +302,7 @@ footer {
     cursor: default;
 
 }
-.link-produkt{
-    color: var(--color-background);
+.oll-product-link{
     font-size: 16px;
     line-height: 1.87;
     font-family: inherit;
